@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Oswald&display=swap');
+
+/* Alguns Resets */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Oswald', sans-serif;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: #000;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    border-right: 1px solid #FFF;
+    display: inline;
+    padding: 0 5px;
+}
+
+.menu {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.menu:hover {
+    color:#F8DF48;
+}
+
+.last-item {
+    border: none;
+}
+
+h1 {
+    color: #F8DF48;
+    font-family: 'Ephesis', cursive;
+    font-size: 2.4em;
+    text-align: center;
+}
+
+.banner {
+    align-items: center;
+    width: 80%;
+    display: flex;
+    color: #FFF;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 24px;
+}
+
+.banner img {
+    width: 300px; 
+}
+
+h3 {
+    font-size: 1.4em;
+    text-align: center;
+    margin-top: 16px;
+    color: #A7892B;
+}
+
+.filmes {
+    display: flex;
+    justify-content: center;
+}
+
+.qual-filme {
+    width: 80%;
+    margin: 24px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.escolha-filme {
+    width: 80px;
+}
+
+.escolha-filme:hover {
+    transform: scale(1.2);
+}
